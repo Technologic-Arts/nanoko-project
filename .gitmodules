@@ -1,0 +1,18 @@
+[submodule "commons"]
+	path = commons
+	url = git@github.com:nanoko-project/javascript-libraries.git
+[submodule "runtime/h-ubu"]
+	path = runtime/h-ubu
+	url = git@github.com:nanoko-project/h-ubu.git
+[submodule "build/coffee-mill-maven-plugin"]
+	path = build/coffee-mill-maven-plugin
+	url = git@github.com:nanoko-project/coffee-mill-maven-plugin.git
+[submodule "runtime/url-parser-service"]
+	path = runtime/url-parser-service
+	url = git@github.com:nanoko-project/url-service.git
+[submodule "runtime/syndication-service"]
+	path = runtime/syndication-service
+	url = git@github.com:nanoko-project/syndication-service.git
+[submodule "runtime/crypto-service"]
+	path = runtime/crypto-service
+	url = git@github.com:nanoko-project/crypto-service.git
