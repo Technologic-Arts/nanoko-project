@@ -16,3 +16,6 @@
 [submodule "runtime/crypto-service"]
 	path = runtime/crypto-service
 	url = git@github.com:nanoko-project/crypto-service.git
+[submodule "build/play2-maven-plugin"]
+	path = build/play2-maven-plugin
+	url = git@github.com:nanoko-project/maven-play2-plugin.git

@@ -9,6 +9,7 @@
 
 	<modules>
 		<module>build/coffee-mill-maven-plugin</module>
+		<module>build/play2-maven-plugin</module>
 		<module>commons</module>
 		<module>runtime/h-ubu</module>
 		<module>runtime/url-parser-service</module>
