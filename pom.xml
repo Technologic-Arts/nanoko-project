@@ -1,6 +1,6 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-	<modelVersion>4.0.0</modelVersion>
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
 	<groupId>org.nanoko</groupId>
 	<artifactId>nanoko-project</artifactId>
 	<packaging>pom</packaging>
@@ -8,25 +8,25 @@
 	<version>1.0-SNAPSHOT</version>
 
 	<modules>
-		<module>build/coffee-mill-maven-plugin</module>
-		<module>build/play2-maven-plugin</module>
+	    <module>build/coffee-mill-maven-plugin</module>
+	    <module>build/play2-maven-plugin</module>
 		<module>commons</module>
-		<module>runtime/h-ubu</module>
+	    <module>runtime/h-ubu</module>
 		<module>runtime/url-parser-service</module>
 		<module>runtime/syndication-service</module>
 		<module>runtime/crypto-service</module>
 		<module>runtime/h-path</module>
 	</modules>
-	
+
 	<build>
-		<plugins>
-		  <plugin>
-			<artifactId>maven-deploy-plugin</artifactId>
-			<version>2.7</version>
-			<configuration>
-			  <skip>true</skip>
-			</configuration>
-		  </plugin>
-		</plugins>
-  </build>
+	    <plugins>
+            <plugin>
+                <artifactId>maven-deploy-plugin</artifactId>
+                <version>2.7</version>
+                    <configuration>
+                        <skip>true</skip>
+                    </configuration>
+            </plugin>
+        </plugins>
+    </build>
 </project>
