@@ -15,6 +15,7 @@
 		<module>runtime/url-parser-service</module>
 		<module>runtime/syndication-service</module>
 		<module>runtime/crypto-service</module>
+		<module>runtime/h-path</module>
 	</modules>
 	
 	<build>
