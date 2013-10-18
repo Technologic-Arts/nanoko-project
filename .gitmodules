@@ -21,4 +21,7 @@
 	url = git@github.com:nanoko-project/maven-play2-plugin.git
 [submodule "runtime/h-path"]
 	path = runtime/h-path
-	url = https://github.com/nanoko-project/h-path.git
+	url = git@github.com:nanoko-project/h-path.git
+[submodule "runtime/render-service"]
+	path = runtime/render-service
+	url = git@github.com:nanoko-project/render-service.git
