@@ -33,6 +33,7 @@
                         <activeByDefault>true</activeByDefault>
                         </activation>
                         <modules>
+                        	<module>runtime/h-ubu</module>
                                 <module>runtime/url-parser-service</module>
                                 <module>runtime/syndication-service</module>
                                 <module>runtime/crypto-service</module>
