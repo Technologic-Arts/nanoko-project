@@ -6,17 +6,40 @@
 	<packaging>pom</packaging>
 	<name>nanoko project</name>
 	<version>1.0-SNAPSHOT</version>
-
-	<modules>
-	    <module>build/coffee-mill-maven-plugin</module>
-	    <module>build/play2-maven-plugin</module>
-		<module>commons</module>
-	    <module>runtime/h-ubu</module>
-		<module>runtime/url-parser-service</module>
-		<module>runtime/syndication-service</module>
-		<module>runtime/crypto-service</module>
-		<module>runtime/h-path</module>
-	</modules>
+	
+	<profiles>
+                <profile>
+                        <id>build</id>
+                        <activation>
+                        <activeByDefault>true</activeByDefault>
+                        </activation>
+                        <modules>
+                                <module>build/coffee-mill-maven-plugin</module>
+                                <module>build/play2-maven-plugin</module>
+                        </modules>
+                </profile>
+                <profile>
+                        <id>commons</id>
+                        <activation>
+                        <activeByDefault>true</activeByDefault>
+                        </activation>
+                        <modules>
+                                <module>commons</module>
+                        </modules>
+                </profile>
+                <profile>
+                        <id>runtime</id>
+                        <activation>
+                        <activeByDefault>true</activeByDefault>
+                        </activation>
+                        <modules>
+                                <module>runtime/url-parser-service</module>
+                                <module>runtime/syndication-service</module>
+                                <module>runtime/crypto-service</module>
+                                <module>runtime/h-path</module>
+                        </modules>
+                </profile>
+        </profiles>
 
 	<build>
 	    <plugins>
